@@ -1,6 +1,6 @@
 {
   "name": "cryptojs-railssets",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "main": [ "json_formatter.js",
             "components/aes-min.js",
             "components/md5-min.js" ],
