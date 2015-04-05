@@ -1,9 +1,9 @@
 {
   "name": "cryptojs-railssets",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "main": [ "json_formatter.js",
-            "components/aes.js",
-            "components/md5.js" ],
+            "rollups/aes.js",
+            "rollups/md5.js" ],
   "homepage": "https://github.com/vassiliy/cryptojs-railssets",
   "repository": {
     "type": "git",
