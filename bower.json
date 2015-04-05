@@ -1,11 +1,13 @@
 {
-  "name": "cryptojslib",
+  "name": "cryptojs-railssets",
   "version": "3.1.2",
-  "main": "**/*.js",
-  "homepage": "https://github.com/sytelus/cryptojs",
+  "main": [ "json_formatter.js",
+            "components/aes-min.js",
+            "components/md5-min.js" ],
+  "homepage": "https://github.com/vassiliy/cryptojs",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sytelus/cryptojs.git"
+    "url": "git://github.com/vassiliy/cryptojs.git"
   },
   "ignore": [
     "*.bat"
