@@ -69,5 +69,8 @@ encode_utf8 = (string) ->
   unescape(encodeURIComponent string)
 ```
 
+### Bundler compatibility
+**Rails Assets** require `gem 'bundler', '>= 1.8.4'` in documentation, but at the moment of writing, deploying to Heroku Cedar-14 stack which uses bundler 1.7.12 yet yields the expected results fully and error-free.
+
 ### Copyrights
 Please see copyrights.txt file in the root folder which is copy of corresponding file from Google Code project. This github repository does not assert any copyrights beyond what original CryptoJS does.
